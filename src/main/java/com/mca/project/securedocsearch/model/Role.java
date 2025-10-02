@@ -21,5 +21,5 @@ public class Role {
     private Integer roleId;
 
     @Column(nullable = false, unique = true)
-    private String roleName; // e.g., "ROLE_ADMIN", "ROLE_USER"
+    private String roleName; // e.g., "ROLE_ADMIN", "ROLE_USER" COMM
 }
