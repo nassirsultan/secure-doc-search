@@ -1,4 +1,5 @@
-[readme_secure_doc.md](https://github.com/user-attachments/files/28436636/readme_secure_doc.md)
+<img width="1578" height="623" alt="Screenshot 2026-06-04 113213" src="https://github.com/user-attachments/assets/227d96b6-374b-4f6f-a992-8d653d0f9d78" />
+
 # Secure Document Search System
 
 A secure, full-featured document management platform built with **Spring Boot** and **Spring Security**. Enables authenticated users to upload, encrypt, and perform keyword-based searches within confidential documents — ensuring end-to-end data privacy and role-based access control.
