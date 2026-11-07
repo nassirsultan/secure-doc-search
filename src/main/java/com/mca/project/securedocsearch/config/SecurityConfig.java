@@ -32,7 +32,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-            .csrf().disable() // demo only; enable in production
+//            .csrf().disable() // demo only; enable in production
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/login", "/register", "/css/**", "/js/**", "/error", "/.well-known/**").permitAll()
                 .requestMatchers("/admin/**").hasRole("ADMIN")
